@@ -9,6 +9,7 @@
         <div className='nav-item'>
         <Link to='/' className='links' >Home</Link>
         <Link to='/about' className='links' >About</Link>
+        
         <Link to='/contact' className='links' >Contact</Link>
         </div>
      </div>
