@@ -4,13 +4,14 @@ import './index.css';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 // import Navbar from './component/nav-bar/navbar'
 import Home from './view/home/home';
+import Imgan from './view/image-analyzer/image';
 import About from './view/about/about';
 import Contact from './view/contact/conact';
 const root = ReactDom.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
   {
     path:'/',
-    element:<Home/>,
+    element:<Imgan/>,
   },
   {
     path:'/about',
